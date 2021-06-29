@@ -1,18 +1,18 @@
 {
-  "intro": "Hej",
+  "intro": "Howdy",
   "image": {
-    "src": "../../images/waving-hand.png",
+    "src": "../../images/Cowboy-Emoji.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I'm Justin Naismith",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
+    "prefix": "Welcome to my ",
+    "highlight": "portfolio",
     "suffix": "."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": ["LinkedIn", "Github", "Mail"],
     "showIcons": false
   }
 }

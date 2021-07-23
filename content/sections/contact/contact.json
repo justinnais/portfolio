@@ -1,10 +1,10 @@
 {
   "name": "Justin Naismith",
   "email": "justin@nais.dev",
-  "description": "yeeeeeeeeeeeeeeee",
+  "description": "",
   "image": {
-    "src": "../../images/favicon.png",
-    "alt": "Gatsby Logo"
+    "src": "../../images/justin-headshot.png",
+    "alt": "Me :)"
   },
   "socialProfiles": {
     "from": ["LinkedIn", "Github", "Mail"],

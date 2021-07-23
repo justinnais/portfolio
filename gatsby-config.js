@@ -5,7 +5,7 @@ module.exports = {
       options: {
         siteUrl: "https://nais.dev/", // Used for sitemap generation
         manifestSettings: {
-          favicon: "./content/images/favicon.png", // Path is relative to the root
+          favicon: "./content/images/Cowboy-Emoji.png", // Path is relative to the root
           siteName: "Portfolio", // Used in manifest.json
           shortName: "Portfolio", // Used in manifest.json
           startUrl: "/", // Used in manifest.json

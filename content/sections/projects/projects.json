@@ -17,27 +17,7 @@
         }
       ]
     },
-    {
-      "visible": false,
-      "category": "Smart Automation Systems",
-      "title": "Software Development Intern",
-      "description": "Currently building web applications using React for smart residences. Tools for building and resident management.",
-      "tags": ["React", "Typescript", "Jan 2021 - Current"],
-      "image": {
-        "src": "../../images/smart-logo.png",
-        "alt": "Smart Automation Systems logo"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
-        }
-      ]
-    },
+   
     {
       "visible": true,
       "category": "Fred IT Group",
@@ -45,8 +25,8 @@
       "description": "Worked with doctors and pharmacists to improve operational workflow. Provided technical support to clients and other software vendors to troubleshoot and resolve issues with their electronic prescription software.",
       "tags": ["May 2016 - May 2021"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/fred-logo.png",
+        "alt": "Fred logo"
       },
       "links": [
         {
@@ -62,14 +42,14 @@
       "description": "Provided private and group lessons for international clients. Based in Niseko, Japan and Mt Hotham, Australia. APSI Level 2 instructor with a strong ability to identify clients’ areas of improvement, break down and develop over the lesson.",
       "tags": ["APSI 2", "Avalanche Safety", "Seasonal 2017 - 2019"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/skiing.jpg",
+        "alt": "Skiing"
       }
     }
   ],
   "button": {
     "visible": true,
-    "label": "Resume",
+    "label": "View Resume",
     "url": "static/resume-e6d769e98a529e3dccb0a9942e30afbb.pdf"
   }
 }

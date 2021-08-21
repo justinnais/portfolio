@@ -2,41 +2,58 @@
   "projects": [
     {
       "visible": true,
-      "category": "Smart Automation Systems",
-      "title": "Software Development Intern",
-      "description": "Currently building web applications using React for smart residences. Tools for building and resident management.",
-      "tags": ["React", "Typescript", "Jan 2021 - Current"],
+      "category": "Work Project",
+      "title": "ePrescription Help",
+      "description": "Desigined and developed the help web app for the national electronic prescription framework. Follows the simplicty and theme of MedView Patient Connect.",
+      "tags": ["React", "TypeScript", "Smart Automation"],
       "image": {
-        "src": "../../images/smart-logo.png",
-        "alt": "Smart Automation Systems logo"
+        "src": "../../images/help-mockup.png",
+        "alt": "Ausscripts"
       },
       "links": [
         {
           "type": "external",
-          "url": "https://www.sasys.com.au"
+          "url": "https://help-ausscripts.erx.com.au/"
         }
       ]
     },
    
     {
       "visible": true,
-      "category": "Fred IT Group",
-      "title": "eHealth Consultant",
-      "description": "Worked with doctors and pharmacists to improve operational workflow. Provided technical support to clients and other software vendors to troubleshoot and resolve issues with their electronic prescription software.",
-      "tags": ["May 2016 - May 2021"],
+      "category": "Uni Project",
+      "title": "Ethereum Marketplace",
+      "description": "Created a blockchain marketplace using Ethereum, Solidity and Ganache. Users can buy and sell property once approved by their bank.",
+      "tags": ["React", "TypeScript", "Solidity", "RMIT"],
       "image": {
-        "src": "../../images/fred-logo.png",
-        "alt": "Fred logo"
+        "src": "../../images/blockchain.jpeg",
+        "alt": "Blockchain"
       },
       "links": [
         {
-          "type": "external",
-          "url": "https://www.fred.com.au/"
+          "type": "github",
+          "url": "https://github.com/justinnais/sici-blockchain"
         }
       ]
     },
     {
-      "visible": true,
+      "visible": false,
+      "category": "Work",
+      "title": "Connecx",
+      "description": "Created a blockchain marketplace using Ethereum, Solidity and Ganache. Users can buy and sell property once approved by their bank.",
+      "tags": ["React", "TypeScript", "Solidity", "RMIT"],
+      "image": {
+        "src": "../../images/blockchain.jpe",
+        "alt": "Blockchain"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/justinnais/sici-blockchain"
+        }
+      ]
+    },
+    {
+      "visible": false,
       "category": "NISS, Hotham Skiing Company, Gondola Snowsports",
       "title": "Snowsports Instructor",
       "description": "Provided private and group lessons for international clients. Based in Niseko, Japan and Mt Hotham, Australia. APSI Level 2 instructor with a strong ability to identify clients’ areas of improvement, break down and develop over the lesson.",

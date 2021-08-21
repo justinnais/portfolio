@@ -1,7 +1,7 @@
 import React from "react";
 import {
   AboutSection,
-  ArticlesSection,
+  // ArticlesSection,
   ContactSection,
   HeroSection,
   InterestsSection,
@@ -19,7 +19,7 @@ export default function IndexPage() {
         <AboutSection sectionId="about" heading="About Me" />
         {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
         <InterestsSection sectionId="details" heading="Skills" />
-        <ProjectsSection sectionId="features" heading="Experience" />
+        <ProjectsSection sectionId="projects" heading="Projects" />
         <ContactSection sectionId="github" heading="Contact" />
       </Page>
     </>

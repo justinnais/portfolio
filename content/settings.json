@@ -28,8 +28,7 @@
         "label": "Resume",
         "url": "/static/resume-e6d769e98a529e3dccb0a9942e30afbb.pdf"
       },
-      "footer": [{}
-      ]
+      "footer": [{ "label": "Theme", "url": "https://www.konstantin.digital/" }]
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,

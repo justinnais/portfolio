@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Page, Seo } from 'gatsby-theme-portfolio-minimal';
-import file from './resume.pdf';
+import file from './justin-naismith-resume.pdf';
 
 export default function Resume() {
   useEffect(() => {

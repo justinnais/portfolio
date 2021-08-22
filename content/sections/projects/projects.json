@@ -2,9 +2,9 @@
   "projects": [
     {
       "visible": true,
-      "category": "Work Project",
+      "category": "Work",
       "title": "ePrescription Help",
-      "description": "Desigined and developed the help web app for the national electronic prescription framework. Follows the simplicty and theme of MedView Patient Connect.",
+      "description": "Designed and developed the help web app for the national electronic prescription framework. Follows the theme of MedView Patient Connect.",
       "tags": ["React", "TypeScript", "Smart Automation"],
       "image": {
         "src": "../../images/help-mockup.png",
@@ -17,7 +17,23 @@
         }
       ]
     },
-   
+    {
+      "visible": true,
+      "category": "Work",
+      "title": "connecX",
+      "description": "Part of the connecX development team creating resident and building management software for smart residences.",
+      "tags": ["React", "TypeScript", "Smart Automation"],
+      "image": {
+        "src": "../../images/connecX.jpg",
+        "alt": "connecX"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.connecx.com.au/connecx-portal/"
+        }
+      ]
+    },
     {
       "visible": true,
       "category": "Uni Project",
@@ -35,23 +51,7 @@
         }
       ]
     },
-    {
-      "visible": false,
-      "category": "Work",
-      "title": "Connecx",
-      "description": "Created a blockchain marketplace using Ethereum, Solidity and Ganache. Users can buy and sell property once approved by their bank.",
-      "tags": ["React", "TypeScript", "Solidity", "RMIT"],
-      "image": {
-        "src": "../../images/blockchain.jpe",
-        "alt": "Blockchain"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/justinnais/sici-blockchain"
-        }
-      ]
-    },
+
     {
       "visible": false,
       "category": "NISS, Hotham Skiing Company, Gondola Snowsports",
@@ -67,6 +67,6 @@
   "button": {
     "visible": true,
     "label": "View Resume",
-    "url": "static/resume-e6d769e98a529e3dccb0a9942e30afbb.pdf"
+    "url": "static/justin-naismith-resume-aa4eab9b50197cd8198f25d12236b642.pdf"
   }
 }

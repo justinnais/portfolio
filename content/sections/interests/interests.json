@@ -15,12 +15,13 @@
       }
     },
     {
-      "label": "JavaScript",
+      "label": "Svelte",
       "image": {
-        "src": "../../images/js.png",
+        "src": "../../images/svelte.png",
         "alt": ""
       }
     },
+
     {
       "label": "AWS",
       "image": {
@@ -32,6 +33,13 @@
       "label": "Java",
       "image": {
         "src": "../../images/java.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "JavaScript",
+      "image": {
+        "src": "../../images/js.png",
         "alt": ""
       }
     },

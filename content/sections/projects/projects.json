@@ -2,6 +2,27 @@
   "projects": [
     {
       "visible": true,
+      "category": "Personal Project",
+      "title": "Sveltype",
+      "description": "Typing game I created to help me learn the Svelte framework. Currently a work in progress.",
+      "tags": ["Svelte", "TypeScript"],
+      "image": {
+        "src": "../../images/sveltype.png",
+        "alt": "Sveltype"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://sveltype.xyz/"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/justinnais/sveltype"
+        }
+      ]
+    },
+    {
+      "visible": true,
       "category": "Work",
       "title": "ePrescription Help",
       "description": "Designed and developed the help web app for the national electronic prescription framework. Follows the theme of MedView Patient Connect.",
@@ -39,15 +60,15 @@
       "category": "Uni Project",
       "title": "Ethereum Marketplace",
       "description": "Created a blockchain marketplace using Ethereum, Solidity and Ganache. Users can buy and sell property once approved by their bank.",
-      "tags": ["React", "TypeScript", "Solidity", "RMIT"],
+      "tags": ["Ethereum", "Solidity", "React", "RMIT"],
       "image": {
-        "src": "../../images/blockchain.jpeg",
+        "src": "../../images/sici.png",
         "alt": "Blockchain"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/justinnais/sici-blockchain"
+          "url": "https://github.com/justinnais/real-estate-blockchain"
         }
       ]
     },

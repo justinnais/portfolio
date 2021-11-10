@@ -26,10 +26,10 @@
       "category": "Work",
       "title": "ePrescription Help",
       "description": "Designed and developed the help web app for the national electronic prescription framework. Follows the theme of MedView Patient Connect.",
-      "tags": ["React", "TypeScript", "Smart Automation"],
+      "tags": ["React", "TypeScript"],
       "image": {
         "src": "../../images/help-mockup.png",
-        "alt": "Ausscripts"
+        "alt": "Ausscripts web app"
       },
       "links": [
         {
@@ -43,10 +43,10 @@
       "category": "Work",
       "title": "connecX",
       "description": "Part of the connecX development team creating resident and building management software for smart residences.",
-      "tags": ["React", "TypeScript", "Smart Automation"],
+      "tags": ["AWS", "React", "React Native", "TypeScript"],
       "image": {
         "src": "../../images/connecX.jpg",
-        "alt": "connecX"
+        "alt": "connecX app"
       },
       "links": [
         {
@@ -60,10 +60,10 @@
       "category": "Uni Project",
       "title": "Ethereum Marketplace",
       "description": "Created a blockchain marketplace using Ethereum, Solidity and Ganache. Users can buy and sell property once approved by their bank.",
-      "tags": ["Ethereum", "Solidity", "React", "RMIT"],
+      "tags": ["Ethereum", "React", "Solidity", "TypeScript"],
       "image": {
         "src": "../../images/sici.png",
-        "alt": "Blockchain"
+        "alt": "Blockchain code"
       },
       "links": [
         {
@@ -72,17 +72,39 @@
         }
       ]
     },
-
     {
-      "visible": false,
-      "category": "NISS, Hotham Skiing Company, Gondola Snowsports",
-      "title": "Snowsports Instructor",
-      "description": "Provided private and group lessons for international clients. Based in Niseko, Japan and Mt Hotham, Australia. APSI Level 2 instructor with a strong ability to identify clients’ areas of improvement, break down and develop over the lesson.",
-      "tags": ["APSI 2", "Avalanche Safety", "Seasonal 2017 - 2019"],
+      "visible": true,
+      "category": "Uni Project",
+      "title": "Bookeroo",
+      "description": "Fullstack online bookstore with PayPal integration. Made with Spring microservices and React frontend. Dockerised and deployed to AWS with CI/CD through CircleCI.",
+      "tags": ["AWS", "Java", "React", "Spring", "TypeScript"],
       "image": {
-        "src": "../../images/skiing.jpg",
-        "alt": "Skiing"
-      }
+        "src": "../../images/bookeroo1.png",
+        "alt": "Bookeroo homepage"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/justinnais/eucalyptus-sept"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Uni Project",
+      "title": "COVID-19 Testing Site",
+      "description": "View the testing sites nearest to you and their details. Check into the queue using QR code scanning.",
+      "tags": ["Python", "Flask", "JavaScript"],
+      "image": {
+        "src": "../../images/sepm.png",
+        "alt": "COVID-19 Testing Site homepage"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/justinnais/sepm-squad"
+        }
+      ]
     }
   ],
   "button": {

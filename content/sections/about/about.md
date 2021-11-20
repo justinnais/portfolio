@@ -5,7 +5,7 @@ imageAlt: "This is me :)"
 
 I'm a software developer with a focus on front end development.
 
-Currently studying information technology at RMIT, I am seeking new skills and experience to add to my arsenal. Expected to graduate mid 2023 with a 4.0 GPA.
+Currently studying information technology at RMIT, I am seeking new skills and experience to add to my arsenal. Expected to graduate mid 2022 with a 4.0 GPA.
 
 I enjoy custom mechanical keyboards, Formula One and AFL. 
 

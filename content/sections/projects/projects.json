@@ -108,7 +108,7 @@
     }
   ],
   "button": {
-    "visible": true,
+    "visible": false,
     "label": "View Resume",
     "url": "static/justin-naismith-resume-aa4eab9b50197cd8198f25d12236b642.pdf"
   }

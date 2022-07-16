@@ -31,6 +31,8 @@
         </a>
       </h2>
       Published {project.meta.date}
+
+      <p>{project.meta.summary}</p>
     </li>
   {/each}
 </ul>

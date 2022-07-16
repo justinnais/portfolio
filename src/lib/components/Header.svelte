@@ -1,6 +1,6 @@
-<header class="flex justify-between items-center px-4 py-2 bg-blue-300">
+<header class="flex justify-between items-center px-8 py-4 bg-blue-300">
   <div class="flex flex-1 justify-center">
-    <a class="mr-auto text-lg font-semibold" href="/">nais</a>
+    <a class="mr-auto text-3xl font-semibold" href="/">nais</a>
   </div>
 
   <div class="flex-1 justify-center hidden sm:flex">

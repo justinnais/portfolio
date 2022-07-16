@@ -28,7 +28,7 @@
   <Section title={'Skills'}>some kind of skill tree</Section>
   <Section title={'Projects'}>
     Top 3 projects, then view more link to projects route
-    <a href="/projects">View More</a>
+    <a href="/project">View More</a>
   </Section>
   <Section title={'Contact'}>
     <div class="bg-green-500 h-32 w-32 rounded-full">image</div>

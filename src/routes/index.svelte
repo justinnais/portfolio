@@ -1,5 +1,5 @@
 <script>
-  const foo = 1;
+  import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<h1 class="text-3xl">Hello world!</h1>
+<Hero />

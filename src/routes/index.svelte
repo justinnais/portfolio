@@ -1,5 +1,5 @@
 <script>
-  import Hero from '$lib/components/Hero.svelte';
+  import Hero from '../data/Hero.md';
   import Section from '$lib/components/Section.svelte';
   import Skill from '$lib/components/Skill.svelte';
   import { skillColorMap } from '../data/skills';
@@ -16,8 +16,8 @@
   <Section title={'About'}>
     <About />
   </Section>
-  <Section title={'Skills'}
-    >some kind of skill tree
+  <Section title={'Skills'}>
+    some kind of skill tree
     <div class="flex gap-2 flex-wrap">
       {#each [...map] as [skill, color]}
         <Skill name={skill} backgroundColor={color} />

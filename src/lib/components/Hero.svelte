@@ -1,20 +1,21 @@
 <script>
   export let greeting;
+  export let emoji;
+  export let name;
+  export let role;
+  export let links;
+  const linkMap = new Map(Object.entries(links));
 </script>
 
 <section class="min-h-[50vh] flex flex-col justify-center">
   <h1 class="flex flex-col gap-1">
-    <span>Howdy 🤠</span>
-    <span>I'm Justin Naismith</span>
+    <span>{greeting} {emoji}</span>
+    <span>I'm {name}</span>
   </h1>
-  <p class="text-2xl font-semibold mt-3">Software Engineer</p>
+  <p class="text-2xl font-semibold mt-3">{role}</p>
   <ul class="flex gap-4 text-lg mt-10">
-    <li>LinkedIn</li>
-    <li>Github</li>
-    <li>Mail</li>
+    {#each [...linkMap] as [name, path]}
+      <li><a href={path}>{name}</a></li>
+    {/each}
   </ul>
 </section>
-
-<style>
-  /* your styles go here */
-</style>

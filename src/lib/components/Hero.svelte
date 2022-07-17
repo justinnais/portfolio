@@ -1,5 +1,5 @@
-<script lang="ts">
-  export let greeting: string;
+<script>
+  export let greeting;
 </script>
 
 <section class="min-h-[50vh] flex flex-col justify-center">

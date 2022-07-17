@@ -1,8 +1,8 @@
-<script lang="ts">
-  export let name: string;
-  export let date: string;
-  export let tags: string[];
-  export let links: { external: string; github: string };
+<script>
+  export let name;
+  export let date;
+  export let tags;
+  export let links;
   const linkMap = new Map(Object.entries(links));
 </script>
 

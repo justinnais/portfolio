@@ -1,6 +1,9 @@
 <script>
   import Hero from '$lib/components/Hero.svelte';
   import Section from '$lib/components/Section.svelte';
+  import Skill from '$lib/components/Skill.svelte';
+  import { skillColorMap } from '../data/skills';
+  const map = new Map(skillColorMap);
 </script>
 
 <svelte:head>
@@ -25,7 +28,12 @@
       </p>
     </article>
   </Section>
-  <Section title={'Skills'}>some kind of skill tree</Section>
+  <Section title={'Skills'}
+    >some kind of skill tree
+    {#each [...map] as [skill, color]}
+      <Skill name={skill} backgroundColor={color} />
+    {/each}
+  </Section>
   <Section title={'Projects'}>
     Top 3 projects, then view more link to projects route
     <a href="/project">View More</a>

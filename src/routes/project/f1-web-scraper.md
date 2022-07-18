@@ -1,7 +1,7 @@
 ---
 name: 'F1 Web Scraper'
 date: '2022-03-01'
-tags: ['javascript', 'puppeteer']
+tags: ['JavaScript', 'Puppeteer']
 category: 'personal'
 summary: 'Web scraper that collects motorsport race schedules.'
 links: { github: 'https://github.com/justinnais/f1-web-scraper' }

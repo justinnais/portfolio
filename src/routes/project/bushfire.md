@@ -1,7 +1,7 @@
 ---
 name: 'CSIRO Decision Support System'
 date: '2022-06-06'
-tags: ['react', 'javascript', 'd3', 'github actions']
+tags: ['React', 'JavaScript', 'd3', 'GitHub Actions']
 category: 'uni'
 summary: 'React dashboard for the CSIRO Decision Support System, helping present vital information to aid bushfire evacuations'
 ---

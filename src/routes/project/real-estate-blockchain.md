@@ -1,7 +1,7 @@
 ---
 name: 'Blockchain Real Estate Marketplace'
 date: '2021-06-11'
-tags: ['ethereum', 'solidity', 'react', 'typescript']
+tags: ['Ethereum', 'Solidity', 'React', 'TypeScript']
 category: 'uni'
 summary: 'A housing market making use of Smart Contracts on the blockchain to facilitate loans and transactions'
 links: { github: 'https://github.com/justinnais/real-estate-blockchain' }

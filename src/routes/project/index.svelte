@@ -12,27 +12,18 @@
   };
 </script>
 
-<script lang="ts">
-  import type { ProjectResponse } from '$lib/types';
-
-  export let projects: ProjectResponse[];
+<script>
+  import Project from '$lib/components/Project.svelte';
+  export let projects;
 </script>
 
 <svelte:head>
   <title>Projects - Justin Naismith</title>
 </svelte:head>
-<div>Projects Page</div>
-<ul>
+<ul class="flex flex-col gap-4">
   {#each projects as project}
     <li>
-      <h2>
-        <a href={project.path}>
-          {project.meta.name}
-        </a>
-      </h2>
-      Published {project.meta.date}
-
-      <p>{project.meta.summary}</p>
+      <Project {project} />
     </li>
   {/each}
 </ul>

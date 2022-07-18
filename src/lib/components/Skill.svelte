@@ -1,6 +1,11 @@
 <script>
+  import { skillColorMap } from '../../data/skills';
   export let name;
-  export let backgroundColor = '#EAEAEA';
+  export let backgroundColor;
+
+  if (!backgroundColor) {
+    backgroundColor = skillColorMap[name] ?? '#EAEAEA';
+  }
 
   function pickTextColorBasedOnBg(
     bgColor,

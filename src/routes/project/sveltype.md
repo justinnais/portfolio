@@ -1,7 +1,7 @@
 ---
 name: 'Sveltype'
 date: '2021-11-20'
-tags: ['svelte', 'typescript']
+tags: ['Svelte', 'TypeScript']
 category: 'personal'
 summary: 'Typing game I created to help me learn the Svelte framework'
 links:

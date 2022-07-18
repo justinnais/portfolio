@@ -15,7 +15,11 @@
   <p class="text-2xl font-semibold mt-3">{role}</p>
   <ul class="flex gap-4 text-lg mt-10">
     {#each [...linkMap] as [name, path]}
-      <li><a href={path}>{name}</a></li>
+      <li>
+        <a href={path} class="font-mono px-2 py-1 shadow hover:shadow-lg"
+          >{name}</a
+        >
+      </li>
     {/each}
   </ul>
 </section>

@@ -8,6 +8,6 @@ links:
   {
     LinkedIn: 'https://www.linkedin.com/in/justinnais/',
     GitHub: 'https://github.com/justinnais',
-    Mail: 'justin@nais.dev',
+    Mail: 'mailto:justin@nais.dev',
   }
 ---

@@ -9,6 +9,7 @@ links:
     external: 'https://devpost.com/software/greensnap-j81rc3',
     github: 'https://github.com/justinnais/greensnap',
   }
+featured: true
 ---
 
 Effective recycling and reuse of waste materials within our communities is almost non-existent. With many individuals being unaware of the correct disposal practices, incorrect usage of colored bins and councils allowing it to happen by simply redirecting recycling bins to hard rubbish tips. In the depths of both a climate crisis and a growing material shortage, it is more important now then ever to ensure our waste ends up in the location that is best for it.

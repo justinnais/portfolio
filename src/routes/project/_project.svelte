@@ -1,4 +1,5 @@
 <script>
+  import Skill from '$lib/components/Skill.svelte';
   export let name;
   export let date;
   export let tags;
@@ -8,10 +9,12 @@
 
 <h1>{name}</h1>
 
-<p>Published: {date}</p>
-<ul>
+<p>Created {date}</p>
+<ul class="flex gap-2 flex-wrap">
   {#each tags as tag}
-    <li>{tag}</li>
+    <li>
+      <Skill name={tag} />
+    </li>
   {/each}
 </ul>
 {#if links}

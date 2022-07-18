@@ -1,10 +1,29 @@
+<script context="module">
+  export const load = async ({ fetch }) => {
+    let projects = await fetch('/api/projects.json').then(
+      async (res) => await res.json()
+    );
+
+    projects = projects.filter((project) => project.meta.featured);
+
+    return {
+      props: {
+        projects,
+      },
+    };
+  };
+</script>
+
 <script>
+  import About from '../data/About.md';
   import Hero from '../data/Hero.md';
   import Section from '$lib/components/Section.svelte';
   import Skill from '$lib/components/Skill.svelte';
+  import Project from '$lib/components/Project.svelte';
+  export let projects;
+
   import { skillColorMap } from '../data/skills';
   const map = new Map(Object.entries(skillColorMap));
-  import About from '../data/About.md';
 </script>
 
 <svelte:head>
@@ -24,8 +43,14 @@
     </div>
   </Section>
   <Section title={'Projects'}>
-    Top 3 projects, then view more link to projects route
-    <a href="/project">View More</a>
+    Some of my recent projects. You can <a href="/project">view more here.</a>
+    <ul class="flex gap-4 py-4 px-1 overflow-y-scroll">
+      {#each projects as project}
+        <li class="min-w-fit">
+          <Project {project} />
+        </li>
+      {/each}
+    </ul>
   </Section>
   <Section title={'Contact'}>
     <div class="bg-green-500 h-32 w-32 rounded-full">image</div>

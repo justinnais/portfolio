@@ -7,7 +7,7 @@
   const linkMap = new Map(Object.entries(links));
 </script>
 
-<section class="min-h-[50vh] flex flex-col justify-center">
+<section class="min-h-[clamp(300px,50vh,600px)] flex flex-col justify-center">
   <h1 class="flex flex-col gap-1">
     <span>{greeting} {emoji}</span>
     <span>I'm {name}</span>

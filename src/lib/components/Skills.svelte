@@ -5,7 +5,7 @@
 </script>
 
 <Section title={'Skills'}>
-  <div class="flex gap-2 flex-wrap">
+  <div class="flex gap-2 flex-wrap max-w-lg">
     {#each [...map] as [skill, color]}
       <Skill name={skill} backgroundColor={color} />
     {/each}

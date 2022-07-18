@@ -1,5 +1,5 @@
 ---
-name: 'CSIRO Decision Support System'
+name: 'CSIRO DSS'
 date: '2022-06-06'
 tags: ['React', 'JavaScript', 'd3', 'GitHub Actions']
 category: 'uni'

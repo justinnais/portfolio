@@ -5,7 +5,7 @@
   const { name, summary, tags, category } = project.meta;
 </script>
 
-<Card>
+<Card className="max-w-md">
   <p class="font-mono">{category}</p>
   <h2>
     <a href={project.path}>

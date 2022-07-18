@@ -11,14 +11,14 @@
       <a class="mr-auto text-3xl font-semibold" href="/">nais</a>
     </div>
 
-    <div class="flex-1 justify-center hidden sm:flex">
+    <div class="flex-1 justify-center hidden md:flex">
       <nav>
         <ul class="flex gap-8 list-none">
           <li>
             <a href="#about">about</a>
           </li>
           <li>
-            <a href="/projects">projects</a>
+            <a href="/project">projects</a>
           </li>
           <li>
             <a href="#contact">contact</a>
@@ -29,7 +29,7 @@
     <div class="flex flex-1 justify-center">
       <button
         on:click={handleClick}
-        class="ml-auto w-auto sm:hidden border rounded"><Burger /></button
+        class="ml-auto w-auto md:hidden border rounded"><Burger /></button
       >
     </div>
   </div>
@@ -41,7 +41,7 @@
           <a href="#about">about</a>
         </li>
         <li>
-          <a href="/projects">projects</a>
+          <a href="/project">projects</a>
         </li>
         <li>
           <a href="#contact">contact</a>

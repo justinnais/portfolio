@@ -17,7 +17,6 @@
     <About />
   </Section>
   <Section title={'Skills'}>
-    some kind of skill tree
     <div class="flex gap-2 flex-wrap">
       {#each [...map] as [skill, color]}
         <Skill name={skill} backgroundColor={color} />

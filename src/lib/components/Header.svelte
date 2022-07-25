@@ -5,8 +5,8 @@
   const handleClick = () => (menuOpen = !menuOpen);
 </script>
 
-<header class="px-8 py-4">
-  <div class="flex justify-between items-center">
+<header class="px-8 py-4 w-full flex justify-center">
+  <div class="flex justify-between items-center max-w-3xl w-full">
     <div class="flex flex-1 justify-center">
       <a class="mr-auto text-3xl font-semibold text-black" href="/">nais</a>
     </div>
@@ -26,11 +26,10 @@
         </ul>
       </nav>
     </div>
-    <div class="flex flex-1 justify-center">
+    <div class="flex flex-1 justify-center md:hidden">
       <button
         on:click={handleClick}
-        class="ml-auto w-auto md:hidden border rounded bg-blue-50"
-        ><Burger /></button
+        class="ml-auto w-auto border rounded bg-blue-50"><Burger /></button
       >
     </div>
   </div>

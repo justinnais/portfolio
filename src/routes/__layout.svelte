@@ -5,8 +5,7 @@
 </script>
 
 <Header />
-<!-- TODO fix self-center as breaks on smaller screens -->
-<main class="px-8 my-8 flex-grow max-w-3xl">
-  <slot />
+<main class="px-8 my-8 flex-grow flex w-full flex-col items-center">
+  <div class="w-full max-w-3xl"><slot /></div>
 </main>
 <Footer />

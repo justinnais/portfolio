@@ -16,7 +16,9 @@
   <ul class="flex gap-4 text-lg mt-10">
     {#each [...linkMap] as [name, path]}
       <li>
-        <a href={path} class="font-mono px-2 py-1 shadow hover:shadow-lg"
+        <a
+          href={path}
+          class="bg-gray-50 font-mono px-2 py-1 shadow hover:shadow-lg"
           >{name}</a
         >
       </li>

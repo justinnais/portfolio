@@ -29,3 +29,27 @@ h5 {
 a {
   @apply text-blue-700 hover:underline;
 }
+
+/* TODO use tw styles */
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #bfdbfe rgb(249 250 251);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(249 250 251);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bfdbfe;
+  border-radius: 20px;
+  border: 3px solid rgb(249 250 251);
+}

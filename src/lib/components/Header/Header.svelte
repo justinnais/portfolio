@@ -1,11 +1,12 @@
 <script>
+  import { fly } from 'svelte/transition';
   import { Burger } from '$lib/components';
   let menuOpen = false;
 
   const handleClick = () => (menuOpen = !menuOpen);
 </script>
 
-<header class="px-8 py-4 w-full flex justify-center">
+<header class="px-8 py-4 w-full flex flex-col justify-center">
   <div class="flex justify-between items-center max-w-4xl w-full">
     <div class="flex flex-1 justify-center">
       <a class="mr-auto text-3xl font-semibold" href="/">nais</a>
@@ -36,7 +37,7 @@
   </div>
 
   {#if menuOpen}
-    <nav>
+    <nav transition:fly class="mt-4">
       <ul class="flex flex-col gap-4 list-none items-end p-2">
         <li>
           <a href="#about">about</a>

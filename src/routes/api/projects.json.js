@@ -1,5 +1,5 @@
 export const GET = async () => {
-  const projectFiles = import.meta.glob('../project/*.md');
+  const projectFiles = import.meta.glob('../projects/*.md');
   const iterableProjects = Object.entries(projectFiles);
 
   const allProjects = await Promise.all(

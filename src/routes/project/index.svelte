@@ -13,7 +13,7 @@
 </script>
 
 <script>
-  import Project from '$lib/components/Project.svelte';
+  import { Project } from '$lib/components';
   export let projects;
 </script>
 

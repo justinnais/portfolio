@@ -1,6 +1,6 @@
 <script>
-  import Section from '$lib/components/Section.svelte';
-  import Headshot from '$lib/assets/headshot.jpg';
+  import { Section } from '$lib/components';
+  import { Headshot } from '$lib/assets';
   export let name = 'justin';
   // export let email;
 </script>

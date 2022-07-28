@@ -15,15 +15,10 @@
 </script>
 
 <script>
-  import About from '../data/About.md';
-  import Hero from '../data/Hero.md';
-  import Skills from '$lib/components/Skills.svelte';
-  import Projects from '$lib/components/Projects.svelte';
-  import Contact from '$lib/components/Contact.svelte';
+  import { About, Hero, user, skillColorMap } from '$lib/data';
+  import { Skills, Projects, Contact } from '$lib/pages/index';
   export let projects;
 
-  import { skillColorMap } from '../data/skills';
-  import { user } from '../data/user';
   const map = new Map(Object.entries(skillColorMap));
 </script>
 

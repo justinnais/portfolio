@@ -1,5 +1,5 @@
 <script>
-  import Burger from '$lib/components/Burger.svelte';
+  import { Burger } from '$lib/components';
   let menuOpen = false;
 
   const handleClick = () => (menuOpen = !menuOpen);

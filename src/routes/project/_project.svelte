@@ -1,5 +1,5 @@
 <script>
-  import Skill from '$lib/components/Skill.svelte';
+  import { Tag } from '$lib/components';
   export let name;
   export let date;
   export let tags;
@@ -7,13 +7,13 @@
   const linkMap = new Map(Object.entries(links));
 </script>
 
-<h1>{name}</h1>
+<h1 class="mb-2">{name}</h1>
 
 <p>Created {date}</p>
 <ul class="flex gap-2 flex-wrap">
   {#each tags as tag}
     <li>
-      <Skill name={tag} />
+      <Tag name={tag} />
     </li>
   {/each}
 </ul>
@@ -22,5 +22,4 @@
     <a href={url}>{type}</a>
   {/each}
 {/if}
-<a />
 <slot />

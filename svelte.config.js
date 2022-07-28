@@ -13,7 +13,7 @@ const config = {
     mdsvex({
       extensions: ['.md'],
       layout: {
-        project: 'src/routes/projects/_project.svelte',
+        projects: 'src/routes/projects/_project.svelte',
         hero: 'src/lib/layouts/Hero.svelte',
         about: 'src/lib/layouts/About.svelte',
       },

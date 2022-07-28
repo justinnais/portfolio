@@ -23,7 +23,10 @@
 <div class="mb-6">
   {#each crumbs as c, i}
     {#if i == crumbs.length - 1}
-      {c.label}
+      <span
+        class="bg-gradient-to-br from-fuchsia-500 to-blue-800 dark:from-orange-400 dark:to-fuchsia-500 bg-clip-text text-transparent"
+        >{c.label}</span
+      >
     {:else}
       <a href={c.href}>{c.label}</a> &sol;&nbsp;
     {/if}

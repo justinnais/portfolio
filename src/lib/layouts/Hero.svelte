@@ -18,7 +18,7 @@
       <li>
         <a
           href={path}
-          class="bg-gray-50 font-mono px-2 py-1 shadow hover:shadow-lg"
+          class="bg-neutral-300 dark:bg-neutral-800 font-mono px-2 py-1 shadow hover:shadow-lg"
           >{name}</a
         >
       </li>

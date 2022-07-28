@@ -17,8 +17,8 @@ export const skillColorMap = {
 
 export function pickTextColorBasedOnBg(
   bgColor,
-  lightColor = 'text-white',
-  darkColor = 'text-black'
+  lightColor = 'text-neutral-200',
+  darkColor = 'text-neutral-900'
 ) {
   const color = bgColor.charAt(0) === '#' ? bgColor.substring(1, 7) : bgColor;
   const r = parseInt(color.substring(0, 2), 16); // hexToR

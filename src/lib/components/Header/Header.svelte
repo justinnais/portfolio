@@ -8,7 +8,7 @@
 <header class="px-8 py-4 w-full flex justify-center">
   <div class="flex justify-between items-center max-w-4xl w-full">
     <div class="flex flex-1 justify-center">
-      <a class="mr-auto text-3xl font-semibold text-black" href="/">nais</a>
+      <a class="mr-auto text-3xl font-semibold" href="/">nais</a>
     </div>
 
     <div class="flex-1 justify-center hidden md:flex">
@@ -29,7 +29,8 @@
     <div class="flex flex-1 justify-center md:hidden">
       <button
         on:click={handleClick}
-        class="ml-auto w-auto border rounded bg-blue-50"><Burger /></button
+        class="ml-auto w-auto rounded bg-neutral-300 dark:bg-neutral-800"
+        ><Burger /></button
       >
     </div>
   </div>

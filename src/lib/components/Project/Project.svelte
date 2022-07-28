@@ -1,10 +1,11 @@
 <script>
   import { Card, Tag } from '$lib/components';
   export let project;
+  export let className;
   const { name, summary, tags, category } = project.meta;
 </script>
 
-<Card className="max-w-md flex flex-col h-full">
+<Card className={`flex flex-col h-full ${className}`} href={project.path}>
   <p class="font-mono">{category}</p>
   <h2 class="mb-3 text-2xl">
     <a href={project.path}>

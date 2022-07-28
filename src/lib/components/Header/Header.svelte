@@ -6,13 +6,13 @@
   const handleClick = () => (menuOpen = !menuOpen);
 </script>
 
-<header class="px-8 py-4 w-full flex flex-col justify-center">
+<header class="px-8 py-4 w-full flex flex-col sm:flex-row justify-center">
   <div class="flex justify-between items-center max-w-4xl w-full">
     <div class="flex flex-1 justify-center">
       <a class="mr-auto text-3xl font-semibold" href="/">nais</a>
     </div>
 
-    <div class="flex-1 justify-center hidden md:flex">
+    <div class="flex-1 justify-end hidden md:flex">
       <nav>
         <ul class="flex gap-8 list-none">
           <li>

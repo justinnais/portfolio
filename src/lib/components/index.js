@@ -1,3 +1,4 @@
+export { default as Breadcrumb } from './Breadcrumb/Breadcrumb.svelte';
 export { default as Burger } from './Burger/Burger.svelte';
 export { default as Card } from './Card/Card.svelte';
 export { default as Footer } from './Footer/Footer.svelte';

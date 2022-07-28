@@ -17,7 +17,6 @@
 <script>
   import About from '../data/About.md';
   import Hero from '../data/Hero.md';
-  import Section from '$lib/components/Section.svelte';
   import Skills from '$lib/components/Skills.svelte';
   import Projects from '$lib/components/Projects.svelte';
   import Contact from '$lib/components/Contact.svelte';
@@ -34,9 +33,7 @@
 
 <Hero />
 <div class="flex flex-col gap-12">
-  <Section title={'About'}>
-    <About />
-  </Section>
+  <About />
   <Skills {map} />
   <Projects {projects} />
   <Contact {...user} />

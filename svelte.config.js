@@ -15,6 +15,7 @@ const config = {
       layout: {
         project: 'src/routes/project/_project.svelte',
         hero: 'src/lib/components/Hero.svelte',
+        about: 'src/lib/components/About.svelte',
       },
     }),
   ],

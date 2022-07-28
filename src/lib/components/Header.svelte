@@ -6,7 +6,7 @@
 </script>
 
 <header class="px-8 py-4 w-full flex justify-center">
-  <div class="flex justify-between items-center max-w-3xl w-full">
+  <div class="flex justify-between items-center max-w-4xl w-full">
     <div class="flex flex-1 justify-center">
       <a class="mr-auto text-3xl font-semibold text-black" href="/">nais</a>
     </div>

@@ -1,4 +1,5 @@
 <script>
+  import { Button } from '$lib/components';
   export let greeting;
   export let emoji;
   export let name;
@@ -16,11 +17,7 @@
   <ul class="flex gap-4 text-lg mt-10">
     {#each [...linkMap] as [name, path]}
       <li>
-        <a
-          href={path}
-          class="bg-neutral-300 dark:bg-neutral-800 font-mono px-2 py-1 shadow hover:shadow-lg"
-          >{name}</a
-        >
+        <Button href={path}>{name}</Button>
       </li>
     {/each}
   </ul>

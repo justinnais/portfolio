@@ -7,6 +7,10 @@
   const linkMap = new Map(Object.entries(links));
 </script>
 
+<svelte:head>
+  <title>{name} - Justin Naismith</title>
+</svelte:head>
+
 <h1 class="mb-2">{name}</h1>
 
 <p>Created {date}</p>

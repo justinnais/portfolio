@@ -1,40 +1,49 @@
 {
-  "name": "gatsby-starter-portfolio-minimal-theme",
-  "version": "1.0.0",
-  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
+  "name": "portfolio",
+  "version": "3.0.0",
+  "description": "Justin Naismith's development portfolio",
+  "author": "Justin Naismith <justin@nais.dev>",
+  "homepage": "www.nais.dev",
   "scripts": {
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve"
+    "dev": "vite dev",
+    "build": "vite build",
+    "package": "svelte-kit package",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync",
+    "test": "playwright test",
+    "lint": "prettier --check --plugin-search-dir=. . && eslint .",
+    "format": "prettier --write --plugin-search-dir=. ."
   },
-  "dependencies": {
-    "gatsby": "^3.7.1",
-    "gatsby-theme-portfolio-minimal": "^2.5.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-pdf": "^5.3.2"
+  "devDependencies": {
+    "@playwright/test": "^1.22.2",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "mdsvex": "^0.10.6",
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
+    "prettier-plugin-svelte": "^2.7.0",
+    "svelte": "^3.44.0",
+    "svelte-intersection-observer": "^0.10.0",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.1.6",
+    "vite": "^3.0.0"
   },
-  "author": "Konstantin Münster <mail@konstantin.digital>",
-  "license": "MIT",
-  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme.git"
+    "url": "https://github.com/justinnais/portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme/issues"
+    "url": "https://github.com/justinnais/portfolio/issues"
   },
   "keywords": [
-    "react",
-    "gatsby",
-    "gatsby-theme",
-    "PWA",
-    "portfolio",
-    "showcase",
-    "minimal",
-    "animations",
-    "dark-mode",
-    "gdpr-compliant"
+    "svelte",
+    "sveltekit"
   ]
 }

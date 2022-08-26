@@ -4,3 +4,4 @@ export { default as Svelte } from './icons/Svelte.svelte';
 export { default as Link } from './icons/Link.svelte';
 export { default as LinkedIn } from './icons/LinkedIn.svelte';
 export { default as Mail } from './icons/Mail.svelte';
+export { default as Burger } from './icons/Burger.svelte';

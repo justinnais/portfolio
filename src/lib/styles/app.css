@@ -30,13 +30,13 @@ a {
   @apply inline-block;
 }
 
-a::after {
+a:not(.no-underline)::after {
   content: '';
   transition: 200ms;
   @apply w-full sm:w-0 h-0.5 block bg-gradient-to-r from-orange-400 via-fuchsia-500 to-blue-800 -translate-y-0.5;
 }
 
-a:hover::after {
+a:not(.no-underline):hover::after {
   @apply w-full;
 }
 

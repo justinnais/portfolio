@@ -8,4 +8,6 @@ links: { github: 'https://github.com/justinnais/bookeroo' }
 featured: true
 ---
 
-Bookeroo stuff
+Bookeroo is an online bookstore, providing users a place to browse, trade and buy their favourite books.
+
+Made with Spring microservices and React frontend. Dockerised and deployed to AWS with CI/CD through CircleCI.

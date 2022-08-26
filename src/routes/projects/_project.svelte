@@ -43,6 +43,6 @@
   {/if}
 </div>
 
-<article class="flex flex-col gap-6 mt-10">
+<article class="flex flex-col gap-3 mt-10">
   <slot />
 </article>

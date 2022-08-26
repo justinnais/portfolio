@@ -60,3 +60,7 @@ a:not(.no-underline):hover::after {
 *::-webkit-scrollbar-thumb {
   @apply bg-neutral-400  border-neutral-200 dark:border-neutral-900 border-2 border-solid rounded-3xl;
 }
+
+article ul {
+  @apply list-disc list-inside bg-neutral-300 dark:bg-neutral-800 p-4 mx-4 rounded w-fit
+}

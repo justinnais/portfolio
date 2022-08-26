@@ -1,6 +1,6 @@
 <script>
   import { Section } from '$lib/components';
-  import { Headshot } from '$lib/assets';
+  import { Headshot, GitHub, Mail, LinkedIn } from '$lib/assets';
   export let name;
   export let email;
 </script>
@@ -17,5 +17,10 @@
       <p>You can reach me at</p>
       <a href={`mailto:${email}`} class="font-mono">{email}</a>
     </div>
+    <!-- <div>
+      <GitHub />
+      <LinkedIn />
+      <Mail />
+    </div> -->
   </div>
 </Section>

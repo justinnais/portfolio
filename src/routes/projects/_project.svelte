@@ -1,10 +1,17 @@
 <script>
   import { Button, Tag } from '$lib/components';
+  import GitHub from '$lib/assets/icons/GitHub.svelte';
+  import Link from '$lib/assets/icons/Link.svelte';
   export let name;
   export let date;
   export let tags;
   export let links;
   const linkMap = new Map(Object.entries(links || {}));
+
+  const icons = new Map([
+    ['github', GitHub],
+    ['external', Link],
+  ]);
 </script>
 
 <svelte:head>
@@ -26,7 +33,11 @@
   {#if links}
     <ul class="flex gap-2 flex-wrap">
       {#each [...linkMap] as [type, url]}
-        <li><Button href={url}>{type}</Button></li>
+        <li>
+          <Button icon={true} href={url} underline={false}
+            ><svelte:component this={icons.get(type)} /></Button
+          >
+        </li>
       {/each}
     </ul>
   {/if}

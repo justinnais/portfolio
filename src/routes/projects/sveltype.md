@@ -11,4 +11,8 @@ links:
   }
 ---
 
-Wanted to explore the Svelte framework as I kept hearing about how great it was, so I built a clone of Monkeytype.
+Clone of [MonkeyType](https://monkeytype.com) built with Svelte. Primary goal was to learn Svelte and see what all the hype was about.
+
+Svelte made this project super simple with it's two-way data bindings, event listeners, and animations. All of which require much more boilerplate and complexity in React.
+
+Planning on coming back to rework it with SvelteKit, tidy up mistakes I made initially when learning Svelte, and flesh out some features like accounts, statistics and theming.

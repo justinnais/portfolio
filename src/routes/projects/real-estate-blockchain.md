@@ -7,7 +7,7 @@ summary: 'A housing market making use of Smart Contracts on the blockchain to fa
 links: { github: 'https://github.com/justinnais/real-estate-blockchain' }
 ---
 
-Our Real Estate application is a blockchain marketplace that uses Smart Contracts to facilitate transactions between different blockchain accounts.
+Our Real Estate Marketplace is a blockchain application that uses Solidity Smart Contracts to facilitate transactions between different blockchain accounts.
 
 Developed by Justin Naismith (s3605206) and Siddhesh Kale (s3854666) for Security in Computing and IT (COSC2536) at RMIT University, 2021.
 

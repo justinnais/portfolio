@@ -4,7 +4,6 @@ date: '2022-06-06'
 tags: ['React', 'JavaScript', 'd3', 'GitHub Actions']
 category: 'uni'
 summary: 'React dashboard for the CSIRO Decision Support System, helping present vital information to aid bushfire evacuations'
-featured: true
 ---
 
 The Evacuation Modelling Decision Support System (DSS) is a software application that is intended as an aid to:

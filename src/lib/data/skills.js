@@ -13,6 +13,14 @@ export const skillColorMap = {
   Terraform: '#7B42BC',
   Docker: '#2496ED',
   Git: '#F05032',
+  'GitHub Actions': '#2088FF',
+  Puppeteer: '#40B5A4',
+  d3: '#F9A03C',
+  Python: '#3776AB',
+  Flask: '#000000',
+  Ethereum: '#3C3C3D',
+  Solidity: '#363636',
+  CircleCI: '#343434',
 };
 
 export function pickTextColorBasedOnBg(
